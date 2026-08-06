@@ -1,0 +1,18 @@
+{
+    "name": "phpnitro/jwt",
+    "description": "PhpNitro's JWT package — decodes a JWT's header/payload, no signature verification (Engine\\Jwt\\*).",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engine\\Jwt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Engine\\Jwt\\Tests\\": "tests/"
+        }
+    }
+}
